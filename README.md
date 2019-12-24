@@ -10,8 +10,10 @@ This project executes the 3 required action in the assignment:
 1. Retreive Access Token
 2. Create and run a job
 3. Get Job State
+- All done via API given in the assignment PDF
 
-All done via API given in the assignment PDF
+Project tested in UP42: Projectest
+All information such as project ID, API key, etc are specified in the run.sh file
 
 ---------
 
