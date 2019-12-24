@@ -1,5 +1,5 @@
 # up42
-up42 automation initial assignment by, Itamar Jovani
+UP42 initial API-automation assignment by, Itamar Jovani
 
 ---------
 
