@@ -29,9 +29,22 @@ For more information and other platforms, go to: https://stedolan.github.io/jq/d
 
 ---------
 
-How to run the project:
+Get Access Token Demo:
+As the Access Token is valid for only 5 minutes, I wrote a short script that will retreive a new one every time it runs.
+I've incorporated it to the full project (run.sh) to complete the entire test.
+
+Run the accessToken file:
+
+  1. Download the accessToken.sh file
+  2. Open terminal \ cmd
+  3. grant exec permissions (i.e: chmod +x accessToken.sh)
+  4. Run the file (i.e: ./accessToken.sh)
+
+Run the full project:
 
   1. Download the run.sh file
   2. Open terminal \ cmd
   3. grant exec permissions (i.e: chmod +x run.sh)
-  4. Run the file
+  4. Run the file (i.e: ./run.sh)
+  
+  
