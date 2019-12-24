@@ -57,7 +57,7 @@ function create_and_run_job()
     job_id=$(echo "$output" | jq -r ".data.id")
     
     if [ -z "$job_id" ]; then
-        echo "Unable to get job id"
+        echo "Unable to retreive job id"
         return 1
     fi
     
@@ -70,13 +70,13 @@ function check_job_state()
         -H "Authorization: Bearer $access_token")
         
     if [ -z "$output" ]; then
-        echo "Unable to job status"
+        echo "Unable to retreive job status"
         return 1
     fi
     
     job_status=$(echo "$output" | jq -r ".data.status")
     
-    echo "The status of the job is: $job_status"
+    echo "Job Status: $job_status"
 }
 if ! get_access_token; then
     exit 1
