@@ -47,4 +47,5 @@ Run the full project:
   3. grant exec permissions (i.e: chmod +x run.sh)
   4. Run the file (i.e: ./run.sh)
   
+NOTE: Between each job there is a cool-down period. Wait at least 1m before running the script again. (otherwise the job status will returen "null")
   
