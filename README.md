@@ -21,9 +21,9 @@ Prerequisites:
 
 #Install jq
 
-Ubuntu: sudo apt-get install jq
-Windows: chocolatey install jq
-OSX: brew install jq
+ - Ubuntu: sudo apt-get install jq
+ - Windows: chocolatey install jq
+ - OSX: brew install jq
 
 For more information and other platforms, go to: https://stedolan.github.io/jq/download/
 
